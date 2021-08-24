@@ -57,6 +57,20 @@ $ make install
 
 # 디렉토리 구조
 
+├── bin
+├── build
+├── cgi-bin
+├── conf
+├── error
+├── htdocs
+├── icons
+├── include
+├── logs
+├── man
+├── manual
+└── modules
+
+
 # 버전 확인
 
 - ${NEW_APACHE_HOME}/bin에서 ./httpd -v 명령어로 확인 가능
