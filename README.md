@@ -57,19 +57,29 @@ $ make install
 
 # 디렉토리 구조
 
-├── bin
-├── build
-├── cgi-bin
-├── conf
-├── error
-├── htdocs
-├── icons
-├── include
-├── logs
-├── man
-├── manual
-└── modules
-
+${pwd}                                                                       
+|- release-image                                             # image folder                                                    
+|   |- Dockerfile                                            # Dockerfile versions (v20.3, v20.4, etc.)
+|- usage                                                     # usage folder                                                    
+|   |- conf                                                  # Configuration folders
+|   |   |- catalina.policy                                   # Configuration file for Tomcat's security policy permissions
+|   |   |- catalina.properties                               # Contains shared definitions such as servers, shared loaders, and JARs that are searched when the server starts
+|   |   |- context.xml                                       # Loaded when running the application
+|   |   |- jaspic-providers.xml                              # Used for jaspic-providers.xml
+|   |   |- jaspic-providers.xsd                              # XSD file for jaspic-providers.xml
+|   |   |- logging.properties                                # Defines logging properties of Tomcat instance.
+|   |   |- server.xml                                        # Contains important information such as IP address and virtual host and context path
+|   |   |- tomcat-users.xml                                  # Used for authentication and approval according to role-based definitions
+|   |   |- tomcat-users.xsd                                  # XSD file for tomcat-users.xml
+|   |   |- web.xml                                           # Define the default values ​​for all applications when the Tomcat instance is started                            
+|   |- webapps                                               # Web applications that are basically provided by Tomcat binary files.
+|   |   |   |- ROOT                                          # Directories in webapps directory
+|   |   |   |- docs                                          # Directories in webapps directory
+|   |   |   |- examples                                      # Directories in webapps directory
+|   |   |   |- host-namager                                  # Directories in webapps directory
+|   |   |   |- manager                                       # Directories in webapps directory
+|- README.md    
+|- apache-tomcat-latest.tar.gz
 
 # 버전 확인
 
