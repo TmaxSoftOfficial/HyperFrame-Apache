@@ -55,21 +55,6 @@ $ make install
 - 기동:  httpd -k start
 - 종료:  httpd -k stop
 
-# 디렉토리 구조
-
-${NEW_APACHE_HOME}/bin : 기동 및 종료 등의 shell 파일들이 위치
-${NEW_APACHE_HOME}/build : 
-${NEW_APACHE_HOME}/cgi-bin : 실행될 CGI 파일들이 위치
-${NEW_APACHE_HOME}/conf : 기본 환경설정파일이 위치
-${NEW_APACHE_HOME}/error :
-${NEW_APACHE_HOME}/htdocs : 
-${NEW_APACHE_HOME}/include
-${NEW_APACHE_HOME}/lib :
-${NEW_APACHE_HOME}/logs : 로그 파일이 위치
-${NEW_APACHE_HOME}/man :  
-${NEW_APACHE_HOME}/manual : 
-${NEW_APACHE_HOME}/modules : 필요한 모듈들이 위치
-
 # 버전 확인
 
 - ${NEW_APACHE_HOME}/bin에서 ./httpd -v 명령어로 확인 가능
