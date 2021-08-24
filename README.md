@@ -4,8 +4,8 @@
 
 # 사전에 필요한 설치파일
 
-- httpd-2.4.48.tar.gz 파일 필요
-- apr-1.7.0.tar.gz
+- httpd-2.4.48.tar.gz 파일 필요  
+- apr-1.7.0.tar.gz  
 - apr-util-1.6.1.tar.gz
 - pcre-8.42.tar.gz 
 
@@ -13,9 +13,9 @@
 
 - 다음의 jar 파일들의 압축 해제
 
-$ tar -zxvf apr-1.7.0.tar.gz &&
-$ tzr -xzvf apr-util-1.6.1.tar.gz
-$ tar -xzvf httpd-2.4.41.tar
+$ tar -zxvf apr-1.7.0.tar.gz    
+$ tzr -xzvf apr-util-1.6.1.tar.gz  
+$ tar -xzvf httpd-2.4.41.tar  
 
 - 압축을 푼 apr 및 apr-util 라이브러리를 ${APACHE_HOME}/srclib의 라이브러리로 이동
 
