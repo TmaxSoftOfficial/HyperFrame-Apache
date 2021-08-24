@@ -13,29 +13,29 @@
 
 - 다음의 jar 파일들의 압축 해제
 
-# tar -zxvf apr-1.7.0.tar.gz
-# tzr -xzvf apr-util-1.6.1.tar.gz
-# tar -xzvf httpd-2.4.41.tar
+$ tar -zxvf apr-1.7.0.tar.gz
+$ tzr -xzvf apr-util-1.6.1.tar.gz
+$ tar -xzvf httpd-2.4.41.tar
 
 - 압축을 푼 apr 및 apr-util 라이브러리를 ${APACHE_HOME}/srclib의 라이브러리로 이동
 
-# mv apr-1.7.0 ${APACHE_HOME}/srclib/apr
-# mv apr-util-1.6.1 ${APACHE_HOME}/srclib/apr-util
+$ mv apr-1.7.0 ${APACHE_HOME}/srclib/apr
+$ mv apr-util-1.6.1 ${APACHE_HOME}/srclib/apr-util
 
 - pcre 설치
 
-# cd ${PCRE_HOME}
-# tar -xzvf pcre-8.42.tar.gz
-# ./configure --prefix=${PCRE_HOME}
-# make
-# make install
+$ cd ${PCRE_HOME}
+$ tar -xzvf pcre-8.42.tar.gz
+$ ./configure --prefix=${PCRE_HOME}
+$ make
+$ make install
 
 -  Apache 2.4.48 설치 및 실행
 
-# cd ${APACHE_HOME}
-# ./configure --prefix=${NEW_APACHE_HOME} --with-pcre=${PCRE_HOME}
-# make
-# make install
+$ cd ${APACHE_HOME}
+$ ./configure --prefix=${NEW_APACHE_HOME} --with-pcre=${PCRE_HOME}
+$ make
+$ make install
 
 - 설치 후 기동
 
