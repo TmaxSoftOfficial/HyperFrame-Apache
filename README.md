@@ -13,7 +13,7 @@
 
 - 다음의 jar 파일들의 압축 해제
 
-$ tar -zxvf apr-1.7.0.tar.gz
+$ tar -zxvf apr-1.7.0.tar.gz &&
 $ tzr -xzvf apr-util-1.6.1.tar.gz
 $ tar -xzvf httpd-2.4.41.tar
 
