@@ -46,11 +46,11 @@
 
 # 버전 확인
 
-- ${NEW_APACHE_HOME}/bin에서 ./httpd -v 명령어로 확인 가능
+      ${NEW_APACHE_HOME}/bin에서 ./httpd -v 명령어로 확인 가능
 
 # 로그 경로
 
-- ${NEW_APACHE_HOME}/logs 폴더에서 access 로그와 error 로그 확인 가능
+      ${NEW_APACHE_HOME}/logs 폴더에서 access 로그와 error 로그 확인 가능
 
 # 버전 이력
 
