@@ -32,10 +32,10 @@
 
 -  Apache 2.4.48 설치 및 실행
 
-      $ cd ${APACHE_HOME}
-      $ ./configure --prefix=${NEW_APACHE_HOME} --with-pcre=${PCRE_HOME}
-      $ make
-      $ make install
+       $ cd ${APACHE_HOME}
+       $ ./configure --prefix=${NEW_APACHE_HOME} --with-pcre=${PCRE_HOME}
+       $ make
+       $ make install
 
 - 설치 후 기동
 
