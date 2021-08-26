@@ -28,6 +28,12 @@
 * Version : pcre-8.42
 * Note : https://ftp.pcre.org/pub/pcre/
 
+## 검증 환경
+    
+* CentOS Linux release 7.7.1908
+* apache2.4.48_ubuntu.tar.gz는 20.04.1
+
+
 ## 설치 및 실행
 
 ### 1) Acache 압축 풀기
@@ -174,10 +180,3 @@
     $ cd ${APACHE_HOME}/bin/
     $ ./httpd -t                                           
       
-## 검증 내역
-
-    HyperFrameOE-Apache 2.4.48
-    binary 폴더에 포함한 빌드 파일은 아래의 환경에서 검증
-    
-    CentOS Linux release 7.7.1908
-    apache2.4.48_ubuntu.tar.gz는 20.04.1
