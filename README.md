@@ -25,7 +25,7 @@
 
 ### PCRE
 
-* Version : pcre-8.42
+* Version : pcre-8.45
 * Note : https://ftp.pcre.org/pub/pcre/
 
 ## 검증 환경
@@ -49,7 +49,7 @@
 ### 3) PCRE 압축 풀기 및 설치
 
     $ cd ${PCRE_HOME}
-    $ tar -xzvf pcre-8.42.tar.gz
+    $ tar -xzvf pcre-8.45.tar.gz
     $ ./configure --prefix=${PCRE_HOME}
     $ make & make install
 
