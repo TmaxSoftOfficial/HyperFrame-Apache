@@ -56,7 +56,7 @@
 ### 4) Apache 설치
 
     $ cd ${APACHE_HOME}
-    $ ./configure --prefix=${NEW_APACHE_HOME} --with-pcre=${PCRE_HOME}
+    $ ./configure --prefix=${NEW_APACHE_HOME} --enable-modules=all --enable-mods-shared=all --enable-ssl --enable-pcre=static --with-pcre=${PCRE_HOME}
     $ make & make install
 
 ### 5) Apache 실행
