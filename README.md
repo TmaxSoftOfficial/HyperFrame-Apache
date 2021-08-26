@@ -54,5 +54,5 @@
 
 # 버전 이력
 
-HyperFrameOE-Apache 2.4.48
-첨부한 apache2.4.48_centos7.tar.gz는 CentOS Linux release 7.7.1908 (Core)에서 테스트 
+      HyperFrameOE-Apache 2.4.48
+      첨부한 apache2.4.48_centos7.tar.gz는 CentOS Linux release 7.7.1908 (Core)에서 테스트 
