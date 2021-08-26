@@ -1,6 +1,6 @@
 ## HyperFrameOE-Apache
 
-업로드된 바이너리는 HyperFrame Open Edition 제품 설치를 위한 파일이며, 첨부한 바이너리중 apache2.4.48_centos7.tar.gz와 apache2.4.48_ubuntu.tar.gz 파일은 make 및 make install까지 끝낸 바이너리로 외부 모듈들을 포함하고 있음
+업로드된 바이너리는 HyperFrame Open Edition 제품 설치를 위한 파일이며, binary 폴더에 포함된 바이너리는 빌드된 바이너리로 외부 연동 모듈을 포함함
 
 ## 설치 파일
 
