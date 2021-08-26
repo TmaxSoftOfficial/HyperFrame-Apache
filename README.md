@@ -173,5 +173,7 @@
 ## 검증 내역
 
     HyperFrameOE-Apache 2.4.48
-    첨부한 apache2.4.48_centos7.tar.gz는 CentOS Linux release 7.7.1908에서 테스트 
-    apache2.4.48_ubuntu.tar.gz는 20.04.1에서 테스트  
+    binary 폴더에 포함한 빌드 파일은 아래의 환경에서 검증
+    
+    CentOS Linux release 7.7.1908
+    apache2.4.48_ubuntu.tar.gz는 20.04.1
