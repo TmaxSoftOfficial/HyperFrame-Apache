@@ -31,7 +31,7 @@
 ## 검증 환경
     
 * CentOS Linux release 7.7.1908
-* apache2.4.48_ubuntu.tar.gz는 20.04.1
+* Ubuntu 20.04.1 LTS
 
 
 ## 설치 및 실행
