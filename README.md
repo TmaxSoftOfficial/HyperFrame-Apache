@@ -38,7 +38,7 @@
 
 ### 1) Acache 압축 풀기
 
-    $ tar -zxvf httpd-2.4.41.tar  
+    $ tar -zxvf httpd-2.4.48.tar  
 
 ### 2) Apr Library, Apr Util Library 압축 풀기
 
