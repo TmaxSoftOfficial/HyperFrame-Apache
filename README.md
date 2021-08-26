@@ -1,6 +1,10 @@
 ## HyperFrameOE-Apache
 
-업로드된 바이너리는 HyperFrame Open Edition 제품 설치를 위한 파일이며, binary 폴더에 포함된 바이너리는 빌드된 바이너리로 외부 연동 모듈을 포함함
+업로드된 바이너리는 HyperFrame Open Edition 제품 설치를 위한 파일 및 바이너리 폴더에 있는 파일은 아래와 같음 
+
+- 빌드된 외부 연동 모듈을 포함한 빌드 바이너리 
+- WAS와 연동이 필요한 mod_jk.so 파일
+- 설치파일 (아래 내용 참고)
 
 ## 설치 파일
 
