@@ -31,6 +31,7 @@
 ## 검증 환경
     
 * CentOS Linux release 7.7.1908
+* CentOS Linux release 8.4.2105
 * Ubuntu 20.04.1 LTS
 
 
