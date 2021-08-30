@@ -43,6 +43,8 @@
 
 ### 2) Apr Library, Apr Util Library 압축 풀기
 
+    $ cd ${APACHE_HOME}
+    $ mkdir srclib
     $ cd ${APACHE_HOME}/srclib/
     $ tar -zxvf apr-1.7.0.tar.gz    
     $ tzr -zxvf apr-util-1.6.1.tar.gz  
