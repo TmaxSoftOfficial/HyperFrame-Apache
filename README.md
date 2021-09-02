@@ -43,11 +43,11 @@
 
 ### 2) Apr Library, Apr Util Library 압축 풀기
 
-    $ cd ${APACHE_HOME}
-    $ mkdir srclib
-    $ cd ${APACHE_HOME}/srclib/
+    $ cd ${INSTALL_HOME}
     $ tar -zxvf apr-1.7.0.tar.gz    
-    $ tzr -zxvf apr-util-1.6.1.tar.gz  
+    $ tar -zxvf apr-util-1.6.1.tar.gz  
+    $ mv apr-1.7.0 ${APACH_HOME}/srclib/apr
+    $ mv apr-util-1.6.1 ${APACH_HOME}/srclib/apr-Util
 
 ### 3) PCRE 압축 풀기 및 설치
 
