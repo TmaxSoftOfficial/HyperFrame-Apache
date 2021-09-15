@@ -66,12 +66,12 @@
 
 ### 5) Apache 실행
 
-    $ cd ${APACHE_HOME}/bin
+    $ cd ${NEW_APACHE_HOME}/bin
     $ ./httpd -k start
     
 ### 5) Apache 종료
 
-    $ cd ${APACHE_HOME}/bin
+    $ cd ${NEW_APACHE_HOME}/bin
     $ ./httpd -k stop
 
 ## 디렉토리 구조
