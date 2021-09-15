@@ -39,6 +39,7 @@
 
 ### 1) Acache 압축 풀기
 
+    $ cd ${INSTALL_HOME}
     $ tar -zxvf httpd-2.4.48.tar  
 
 ### 2) Apr Library, Apr Util Library 압축 풀기
