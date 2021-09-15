@@ -51,6 +51,7 @@
 
 ### 3) PCRE 압축 풀기 및 설치
 
+    $ cd ${INSTALL_HOME}
     $ cd ${PCRE_HOME}
     $ tar -xzvf pcre-8.45.tar.gz
     $ ./configure --prefix=${PCRE_HOME}
