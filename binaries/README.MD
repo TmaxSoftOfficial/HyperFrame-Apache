@@ -4,11 +4,10 @@
 
 # 파일 내역
 
-아래 등록된 *build.tar.gz는 모두 Build 된 상태의 파일
+binaries 폴더에 등록된 apache2.4_build.tar.gz에는 아래의 Build 파일 포함
 
-- apache2.4.48_build.tar.gz
-- apr-1.7.0_build.tar.gz
-- apr-util-1.6.1_build.tar.gz
-- pcre-8.45_build.tar.gz
-- openssl-1.1.1k_build.tar.gz
+- apr
+- apr-util
+- pcre
+- openssl
 
