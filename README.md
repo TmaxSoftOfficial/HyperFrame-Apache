@@ -61,7 +61,7 @@
 ### 4) Apache 설치
 
     $ cd ${INSTALL_HOME}
-    $ ./configure --prefix=${NEW_APACHE_HOME} --enable-modules=all --enable-mods-shared=all --enable-ssl --enable-pcre=static --with-pcre=${PCRE_HOME} --enable-http2
+    $ ./configure --prefix=${NEW_APACHE_HOME} --enable-modules=all --enable-mods-shared=all --enable-ssl --enable-pcre=static --with-pcre=${PCRE_HOME} --with-pcre=${OPENSSL_HOME} --enable-http2
     $ make & make install
 
 ### 5) Apache 실행
