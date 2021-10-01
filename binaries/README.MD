@@ -38,3 +38,5 @@ binaries 폴더에 등록된 apache2.4_build.tar.gz에는 아래의 Build 파일
     drwxr-xr-x. 5 hfapache hfapache   43 Oct  1 04:55 apr-util
     drwxr-xr-x. 7 hfapache hfapache   67 Oct  1 04:56 openssl
     drwxr-xr-x. 6 hfapache hfapache   56 Oct  1 04:58 pcre
+
+Apache는 해당 경로를 지원하지 않으므로 빌드파일의 prefix는 /home/hfapache/apache2.4로 고정
