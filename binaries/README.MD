@@ -7,10 +7,10 @@
 
 binaries 폴더에 등록된 apache2.4_build.tar.gz에는 아래의 Build 파일 포함
 
-- apr
-- apr-util
-- pcre
-- openssl
+- apr-1.7.0
+- apr-util-1.6.1
+- pcre-8.45
+- openssl-1.1.1k
 
 압축파일의 빌드된 경로는 아래를 참고
 
