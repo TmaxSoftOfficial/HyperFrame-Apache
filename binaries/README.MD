@@ -43,4 +43,3 @@ binaries 폴더에 등록된 apache2.4_build.tar.gz에는 아래의 Build 파일
 
 * 등록된 빌드 바이너리의 Prefix는 /home/hfapache/apache2.4로 빌드
 
-* 이외의 prefix를 사용해야 하는 경우  사용자 환경에서  "재빌드"를 수행 
