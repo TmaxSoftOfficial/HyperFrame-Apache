@@ -45,4 +45,4 @@ binaries 폴더에 등록된 apache2.4_build.tar.gz에는 아래의 Build 파일
 
 * 임의의 경로에서 실행 불가 (Nginx와 같이 옵션을 통한 Path 지정 불가)
 
-* 빌드 바이너리 실행 시, Profix Path에서 실행 필요
+* 빌드 바이너리 실행 시, Prefix Path에서 실행 필요
