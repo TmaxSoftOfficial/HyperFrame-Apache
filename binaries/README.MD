@@ -41,6 +41,8 @@ binaries 폴더에 등록된 apache2.4_build.tar.gz에는 아래의 Build 파일
 
 # 빌드 파일 실행방법
 
-Apache 빌드 경로는 /home/hfpache/apache2.4 입니다.
+* 등록된 빌드 바이너리의 Prefix는 /home/hfpache/apache2.4로 빌드
 
-임의의 경로에 엔진 설치 시 소스 파일을 사용하는 시스템에서 컴파일을 하셔야 합니다.
+* 임의의 경로에서 실행 불가 (Nginx와 같이 옵션을 통한 Path 지정 불가)
+
+* 빌드 바이너리 실행 시, Profix Path에서 실행 필요
