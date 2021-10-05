@@ -41,6 +41,6 @@ binaries 폴더에 등록된 apache2.4_build.tar.gz에는 아래의 Build 파일
 
 # 빌드 파일 실행방법
 
-apache 빌드 경로는 /home/hfpache/apache2.4 입니다.
+Apache 빌드 경로는 /home/hfpache/apache2.4 입니다.
 
 임의의 경로에 엔진 설치 시 소스 파일을 사용하는 시스템에서 컴파일을 하셔야 합니다.
