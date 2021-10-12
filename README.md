@@ -77,12 +77,12 @@
     $ ./config --prefix=${OPENSSL_HOME}
     $ make & make install 
 
-### 5) Apache 실행
+### 6) Apache 실행
 
     $ cd ${NEW_APACHE_HOME}/bin
     $ ./httpd -k start
     
-### 5) Apache 종료
+### 7) Apache 종료
 
     $ cd ${NEW_APACHE_HOME}/bin
     $ ./httpd -k stop
