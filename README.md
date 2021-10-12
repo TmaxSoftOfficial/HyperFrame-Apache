@@ -30,7 +30,7 @@
 
 ### OpenSSL
 
-* Version : openssl-1.1.1k
+* Version : openssl-1.1.1l
 * Note : https://www.openssl.org/source/
 
 ## 검증 환경
