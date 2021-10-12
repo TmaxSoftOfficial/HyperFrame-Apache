@@ -10,7 +10,7 @@ binaries 폴더에 등록된 apache2.4_build.tar.gz에는 아래의 Build 파일
 - apr-1.7.0
 - apr-util-1.6.1
 - pcre-8.45
-- openssl-1.1.1k
+- openssl-1.1.1l
 
 압축파일의 빌드된 경로는 아래를 참고
 
@@ -26,7 +26,7 @@ binaries 폴더에 등록된 apache2.4_build.tar.gz에는 아래의 Build 파일
     drwxr-xr-x. 21 hfapache hfapache  4096 Oct  1 04:55 apr-util-1.6.1
     drwxr-xr-x.  6 hfapache hfapache    60 Oct  1 04:58 build
     drwxr-xr-x. 13 hfapache hfapache  4096 Oct  1 05:01 httpd-2.4.48
-    drwxrwxr-x. 18 hfapache hfapache  4096 Oct  1 04:55 openssl-1.1.1k
+    drwxrwxr-x. 18 hfapache hfapache  4096 Oct  1 04:55 openssl-1.1.1l
     drwxr-xr-x.  9 hfapache hfapache 12288 Oct  1 04:57 pcre-8.45
      
     # openssl, pcre, apr, apr-util 등 빌드한 파일은 아래의 경로로 위치
