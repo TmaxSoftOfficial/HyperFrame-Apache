@@ -68,6 +68,14 @@
     $ cd ${INSTALL_HOME}
     $ ./configure --prefix=${NEW_APACHE_HOME} --enable-modules=all --enable-mods-shared=all --enable-ssl --enable-pcre=static --with-pcre=${PCRE_HOME} --with-openssl=${OPENSSL_HOME} --enable-http2
     $ make & make install
+    
+### 5) OpenSSL 압축 풀기
+
+    $ cd ${INSTALL_HOME}
+    $ tar -zxf openssl-1.1.1l.tar.gz
+    $ cd ${OPENSSL_HOME}
+    $ ./config --prefix=${OPENSSL_HOME}
+    $ make & make install 
 
 ### 5) Apache 실행
 
