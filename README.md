@@ -28,6 +28,11 @@
 * Version : pcre-8.45
 * Note : https://ftp.pcre.org/pub/pcre/
 
+### OpenSSL
+
+* Version : openssl-1.1.1k
+* Note : https://www.openssl.org/source/
+
 ## 검증 환경
     
 * CentOS Linux release 7.7
