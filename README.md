@@ -37,6 +37,7 @@
     
 * CentOS Linux release 7.7
 * CentOS Linux release 8.4
+* CentOS Stream release 8
 * Ubuntu 20.04.1 LTS
 
 
