@@ -73,7 +73,7 @@
 ### 5) OpenSSL 압축 풀기
 
     $ cd ${INSTALL_HOME}
-    $ tar -zxf openssl-1.1.1l.tar.gz
+    $ tar -zxf openssl-1.1.1q.tar.gz
     $ cd ${OPENSSL_HOME}
     $ ./config --prefix=${OPENSSL_HOME}
     $ make & make install 
