@@ -48,7 +48,6 @@ binaries 폴더에 등록된 apache2.4_build.tar.gz에는 아래의 Build 파일
 
 # 변경 이력
 
-- 2022년 10월 26일
-  - openssl-1.1.1l → openssl-1.1.1q
 - 2022년 11월 14일
-  - openssl-1.1.1q → openssl-1.1.1s
+  - openssl-1.1.1l → openssl-1.1.1s
+  - add mpms modules
