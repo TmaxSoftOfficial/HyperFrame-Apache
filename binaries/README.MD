@@ -45,3 +45,10 @@ binaries 폴더에 등록된 apache2.4_build.tar.gz에는 아래의 Build 파일
 - 등록된 빌드 바이너리의 Prefix는 /home/hfapache/apache2.4.48_openssl1.1.1s로 빌드
 
 - 빌드된 Prefix가 아닌, 다른 Prefix에서 사용 시 사용자 환경에서 [재빌드 과정](https://github.com/TmaxSoftOfficial/HyperFrameOE-Apache#%EC%84%A4%EC%B9%98-%EB%B0%8F-%EC%8B%A4%ED%96%89) 수행 필요
+
+# 변경 이력
+
+- 2022년 10월 26일
+  - openssl-1.1.1l → openssl-1.1.1q
+- 2022년 11월 14일
+  - openssl-1.1.1q → openssl-1.1.1s
