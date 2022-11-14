@@ -66,7 +66,7 @@
 ### 4) OpenSSL 압축 풀기
 
     $ cd ${INSTALL_HOME}
-    $ tar -zxf openssl-1.1.1q.tar.gz
+    $ tar -zxf openssl-1.1.1s.tar.gz
     $ cd ${OPENSSL_HOME}
     $ ./config --prefix=${OPENSSL_HOME}
     $ make & make install
@@ -188,7 +188,6 @@
      -D AP_TYPES_CONFIG_FILE="conf/mime.types"
      -D SERVER_CONFIG_FILE="conf/httpd.conf"
 
-
 ### 2) 설정 파일 지정 Apache 실행
 
     $ cd ${APACHE_HOME}/bin/
@@ -198,4 +197,3 @@
 
     $ cd ${APACHE_HOME}/bin/
     $ ./httpd -t
-
