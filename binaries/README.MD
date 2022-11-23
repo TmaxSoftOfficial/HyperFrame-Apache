@@ -1,6 +1,6 @@
 # 빌드 환경
 
-- CentOS Stream release 8
+- CentOS Linux release 7.7.1908
 - Intel(R) Core(TM) i5-6500 CPU @ 3.20GHz x86_64 bit
 
 # 파일 내역
